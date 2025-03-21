@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">My <span>Projects</span></h1>
+        <div class="filter-buttons">
+            <button onclick="filterProjects('all')">All Projects</button>
+            <button onclick="filterProjects('data')">Data Science & AI/ML</button>
+            <button onclick="filterProjects('webdev')">Web Dev Projects</button>
+        </div>
+        <div class="project-container" id="project-container">
+            <div class="project-card" data-category="webdev">
+                <img src="modern-nextjs.png" alt="Modern Next.js Portfolio">
+                <h2>Modern Next.js Portfolio</h2>
+                <p>A sleek Next.js portfolio with animations and interactive UI.</p>
+                <div class="buttons">
+                    <a href="#" class="live-demo">Live Demo</a>
+                    <a href="#" class="github">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card" data-category="data">
+                <img src="interactive-website.png" alt="Interactive Website">
+                <h2>Interactive Website</h2>
+                <p>Beautiful interactive cards with hover effects and animations.</p>
+                <div class="buttons">
+                    <a href="#" class="live-demo">Live Demo</a>
+                    <a href="#" class="github">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card" data-category="webdev">
+                <img src="space-themed.png" alt="Space Themed Website">
+                <h2>Space Themed Website</h2>
+                <p>A futuristic website with a space theme and engaging visuals.</p>
+                <div class="buttons">
+                    <a href="#" class="live-demo">Live Demo</a>
+                    <a href="#" class="github">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
